@@ -1,4 +1,7 @@
 import { Shield, DollarSign, Lock, CheckCircle } from "lucide-react";
+import AdaezeImg from "../../assets/review1.png";
+import ChidiImg from "../../assets/review4.png";
+import FunmiImg from "../../assets/review3.png";
 
 const trustCards = [
   {
@@ -23,19 +26,22 @@ const testimonials = [
     name: "Adaeze O.",
     location: "Lagos",
     text: "I booked a consultation at 11pm and spoke to a doctor in 5 minutes. This service is a lifesaver for busy professionals.",
-    rating: 5
+    rating: 5,
+    avatar: AdaezeImg
   },
   {
     name: "Dr. Chidi M.",
     role: "General Practitioner",
     text: "MyCyber Clinics makes it easy to reach patients who need care but can't make it to a physical clinic. Great platform.",
-    rating: 5
+    rating: 5,
+    avatar: ChidiImg
   },
   {
-    name: "Funmi A.",
+    name: "Dotun F.",
     location: "Abuja",
     text: "The pricing is so clear and affordable. No more surprise bills. I know exactly what I'm paying for before I book.",
-    rating: 5
+    rating: 5,
+    avatar: FunmiImg
   }
 ];
 
@@ -111,12 +117,19 @@ export function TrustSection() {
               "{testimonial.text}"
             </p>
 
-            {/* Author */}
-            <div>
-              <p className="font-semibold text-[#2C3E50]">{testimonial.name}</p>
-              <p className="text-sm text-gray-600">
-                {testimonial.location || testimonial.role}
-              </p>
+            {/* Author with avatar */}
+            <div className="flex items-center gap-4 mt-2">
+              <img
+                src={testimonial.avatar}
+                alt={`${testimonial.name} avatar`}
+                className="w-12 h-12 rounded-full object-cover flex-shrink-0"
+              />
+              <div>
+                <p className="font-semibold text-[#2C3E50]">{testimonial.name}</p>
+                <p className="text-sm text-gray-600">
+                  {testimonial.location || testimonial.role}
+                </p>
+              </div>
             </div>
           </div>
         ))}
