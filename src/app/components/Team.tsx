@@ -9,7 +9,7 @@ const teamMembers = [
     mdcn: "MDCN/2015/48392",
     qualifications: "MBBS, MPH",
     experience: "8 years",
-    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwZmVtYWxlJTIwZG9jdG9yfGVufDF8fHx8MTc3MTQyODcwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://i.postimg.cc/PfCPGGJj/doctor1.png",
     altText: "Dr. Adaeze Okonkwo, General Practitioner specializing in Family Medicine with 8 years of experience"
   },
   {
@@ -19,7 +19,7 @@ const teamMembers = [
     mdcn: "MDCN/2012/35187",
     qualifications: "MBBS, FWACP",
     experience: "12 years",
-    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwbWFsZSUyMGRvY3RvcnxlbnwxfHx8fDE3NzE0Mjg3MDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://i.postimg.cc/3x7QYp8K/doctor2.png",
     altText: "Dr. Chinedu Eze, Consultant Physician specializing in Internal Medicine with 12 years of experience"
   },
   {
@@ -29,7 +29,7 @@ const teamMembers = [
     mdcn: "MDCN/2010/29456",
     qualifications: "MBBS, FMCDS",
     experience: "14 years",
-    image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxhZnJpY2FuJTIwZmVtYWxlJTIwZG9jdG9yfGVufDF8fHx8MTc3MTQyODcwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://i.postimg.cc/4y9jTvmb/doctor3.png",
     altText: "Dr. Oluwaseun Adeleke, Dermatology Specialist with 14 years of experience"
   }
 ];

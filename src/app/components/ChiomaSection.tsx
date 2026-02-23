@@ -1,5 +1,6 @@
 import { Bot, MessageCircle, Calendar, BookOpen, AlertTriangle } from "lucide-react";
 import { Button } from "./ui/button";
+import ChiomaChatImage from "../../assets/chioma-chat.png";
 
 const features = [
   {
@@ -23,42 +24,14 @@ export function ChiomaSection() {
   return (
     <section className="py-20 px-6 lg:px-32 bg-white" aria-labelledby="chioma-heading">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Left Column - Chat Demo */}
+        {/* Left Column - Chat Image (replaces live demo) */}
         <div className="relative">
-          <div className="bg-gradient-to-br from-[#7E5BA1] to-[#48C9B0] rounded-2xl p-12 text-white" role="img" aria-label="CHIOMA AI assistant chat demonstration">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 bg-white/10 backdrop-blur rounded-xl flex items-center justify-center">
-                <Bot className="w-10 h-10 text-white" aria-hidden="true" />
-              </div>
-              <div>
-                <h3 className="font-['Univa_Nova',sans-serif] font-bold text-3xl">CHIOMA</h3>
-                <p className="text-white/80 text-sm">Your Personal Health Assistant</p>
-              </div>
-            </div>
-
-            {/* Chat Preview */}
-            <div className="space-y-4" aria-live="polite">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-4">
-                <p className="text-xs text-white/60 mb-1">You:</p>
-                <p className="text-sm text-white/90">
-                  Hi! I've been experiencing headaches for the past two days. What should I do?
-                </p>
-              </div>
-              <div className="bg-white/20 backdrop-blur rounded-lg p-4">
-                <p className="text-xs text-white/80 mb-1">CHIOMA:</p>
-                <p className="text-sm text-white">
-                  I understand you're experiencing headaches. While I can provide guidance, I'd recommend booking a consultation with one of our doctors for a proper assessment. Would you like me to help you schedule an appointment?
-                </p>
-              </div>
-              <div className="flex gap-2">
-                <div className="bg-white/20 backdrop-blur rounded-full px-4 py-2">
-                  <p className="text-sm text-white">Yes, book appointment</p>
-                </div>
-                <div className="bg-white/20 backdrop-blur rounded-full px-4 py-2">
-                  <p className="text-sm text-white">Tell me more</p>
-                </div>
-              </div>
-            </div>
+          <div className="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src={ChiomaChatImage}
+              alt="CHIOMA chat screenshot"
+              className="w-full h-11/12 block max-h-[560px] object-fill"
+            />
           </div>
         </div>
 
