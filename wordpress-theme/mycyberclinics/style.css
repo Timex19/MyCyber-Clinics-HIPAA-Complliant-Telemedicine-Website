@@ -1,0 +1,21 @@
+/*
+Theme Name: MyCyberClinics
+Theme URI: https://mycyberclinics.com/
+Author: MyCyberClinics
+Description: WordPress theme template for the MyCyberClinics website.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+Text Domain: mycyberclinics
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
