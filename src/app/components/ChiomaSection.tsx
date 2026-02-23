@@ -1,6 +1,6 @@
 import { Bot, MessageCircle, Calendar, BookOpen, AlertTriangle } from "lucide-react";
 import { Button } from "./ui/button";
-import ChiomaChatImage from "../../assets/chioma-chat.png";
+import ChiomaChatImage from "../../assets/chioma-chat1.png";
 
 const features = [
   {
