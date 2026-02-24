@@ -77,7 +77,7 @@ export function Hero() {
               Doctors
             </a>
             <a
-              href="/blog"
+              href="#blog"
               className="text-[#2C3E50] hover:text-[#FFC857] transition-colors text-sm font-medium"
             >
               Health Blog
