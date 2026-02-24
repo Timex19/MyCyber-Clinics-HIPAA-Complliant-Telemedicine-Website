@@ -1,6 +1,6 @@
 import { Bot, MessageCircle, Calendar, BookOpen, AlertTriangle } from "lucide-react";
 import { Button } from "./ui/button";
-import ChiomaChatImage from "../../assets/chioma-chat1.png";
+import ChiomaChatImage from "../../assets/chioma-chat.png";
 
 const features = [
   {
@@ -22,17 +22,15 @@ const features = [
 
 export function ChiomaSection() {
   return (
-    <section className="py-20 px-6 lg:px-32 bg-white" aria-labelledby="chioma-heading">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section className="py-12 px-4 lg:py-20 lg:px-32 bg-white" aria-labelledby="chioma-heading">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         {/* Left Column - Chat Image (replaces live demo) */}
-        <div className="relative">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
-            <img
-              src={ChiomaChatImage}
-              alt="CHIOMA chat screenshot"
-              className="w-full h-11/12 block max-h-[560px] object-fill"
-            />
-          </div>
+        <div className="relative flex justify-center items-center lg:justify-center">
+          <img
+            src={ChiomaChatImage}
+            alt="CHIOMA chat screenshot"
+            className="w-full max-w-xs lg:max-w-md h-auto"
+          />
         </div>
 
         {/* Right Column - Content */}

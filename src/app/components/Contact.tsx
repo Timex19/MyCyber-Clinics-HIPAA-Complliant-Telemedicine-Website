@@ -66,7 +66,7 @@ export function Contact() {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              {/* <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-[#ECF0F1] rounded-lg flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-[#14A9CC]" aria-hidden="true" />
                 </div>
@@ -78,7 +78,7 @@ export function Contact() {
                     Nigeria
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Emergency Notice */}
